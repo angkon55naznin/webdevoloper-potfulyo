@@ -103,6 +103,5 @@ main{
     margin: 0 auto;
 }
 .item-discription{
-    font-weight: 600px;
-    margin-bottom: 10px;
+    font-weight: bold;
 }
