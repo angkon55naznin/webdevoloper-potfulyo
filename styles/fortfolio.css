@@ -31,6 +31,9 @@
     font-size: 18px;
     font-weight: normal;
 }
+.text-center{
+    text-align: center;
+}
 /* header styels */
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -90,7 +93,10 @@ nav ul li a{
     border-radius: 10px;
     padding: 131px 150px;
     text-align: center;
+}
+main section{
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .about-items{
@@ -104,4 +110,36 @@ main{
 }
 .item-discription{
     font-weight: bold;
+}
+/* skill section style */
+.skilles-contener{
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+.skill{
+    padding: 33px;
+    border-radius: 5px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* resumie section styles */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.exprence-sub-titel{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.exprence-discription, .exprence-sub-titel{
+
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 7px;
+}
+.resume-download-cv{
+    margin-top: 50px;
 }
